@@ -9,13 +9,15 @@
 </head>
 <body>
     <div id="container">
-        <h1 id="navbar">Grades Calculator</h1>
-        <form action="">
-            <input type="number" placeholder="Enter your Marks">
-            <button id="btn" type="submit" class="btn btn-outline-dark btn-secondary btn-lg">Submit</button>
-        </form>
+        <h2 id="navbar">Grades Calculator</h2>
+            <input type="number" placeholder="Enter your Marks" id="grade">
+            <button onclick="calculateGrade()" id="btn" type="submit" class="btn btn-sm btn-outline-dark btn-secondary btn-lg" required>Submit</button>
+
+        <h5>Comment</h5>
+        <p id="result"></p>
     </div>
     
+    <script src="./index.js"></script>
     
 </body>
 </html>
