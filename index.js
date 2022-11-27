@@ -16,7 +16,7 @@ function calculateGrade(){
         else if (grade >= 40) {
             document.getElementById("result").innerHTML = `Your grade is D, prepare for supplementary exam.`
         }
-        else if  ( grade >= 0 && grade < 40 ) {
+        else if  (grade > 0 ) {
             document.getElementById("result").innerHTML = `Your grade is E, you will not proceed to the next class.`
         }
         else if (grade < 0) {
